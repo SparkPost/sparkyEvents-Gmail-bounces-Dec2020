@@ -137,6 +137,9 @@ p = {
     'per_page': 10000,
     'from': args.from_time,
     'to': args.to_time,
+    'events': 'bounce',
+    'bounce_classes': 10,
+    'reasons': 'gsmtp'
 }
 if events:
     p['events'] = events
