@@ -3,9 +3,11 @@
 [Sign up](https://app.sparkpost.com/join?plan=free-0817?src=Social%20Media&sfdcid=70160000000pqBb&pc=GitHubSignUp&utm_source=github&utm_medium=social-media&utm_campaign=github&utm_content=sign-up) for a SparkPost account and visit our [Developer Hub](https://developers.sparkpost.com) for even more content.
 
 # sparkyEvents-Gmail-bounces-Dec2020
-[![Build Status](https://travis-ci.org/tuck1s/sparkyEvents.svg?branch=master)](https://travis-ci.org/tuck1s/sparkyEvents)
+[![Build Status](https://travis-ci.com/SparkPost/sparkyEvents-Gmail-bounces-Dec2020.svg?branch=master)](https://travis-ci.com/SparkPost/sparkyEvents-Gmail-bounces-Dec2020)
 
 Specific version of this tool, specifically to retrieve Gmail Hard Bounces class 10 ONLY, for a specific time-range.
+
+**This downloads bounce events with a bounce classification of 10 (invalid user) and with the string `gsmtp` in the bounce reason.**
 
 ## Gmail December 2020 hard bounces
 

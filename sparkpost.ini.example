@@ -3,7 +3,7 @@
 # Host = api.eu.sparkpost.com
 
 # Put your API key here
-Authorization =
+Authorization = abcd
 
 #Leave the following undefined if you want ALL event types
 Events=bounce
