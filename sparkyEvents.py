@@ -137,7 +137,7 @@ p = {
     'per_page': 10000,
     'from': args.from_time,
     'to': args.to_time,
-    'events': 'bounce',
+    'events': 'bounce,out_of_band', # now include out-of-band bounces as well
     'bounce_classes': 10,
     'reasons': 'gsmtp'
 }

@@ -5,9 +5,12 @@
 # sparkyEvents-Gmail-bounces-Dec2020
 [![Build Status](https://travis-ci.com/SparkPost/sparkyEvents-Gmail-bounces-Dec2020.svg?branch=master)](https://travis-ci.com/SparkPost/sparkyEvents-Gmail-bounces-Dec2020)
 
-Specific version of this tool, specifically to retrieve Gmail Hard Bounces class 10 ONLY, for a specific time-range.
+Specific version of this tool, to retrieve:
+- Bounces (**inband and out-of-band**)
+- With a bounce classification of 10 (= invalid user)
+- With the string `gsmtp` in the bounce reason.
 
-**This downloads bounce events with a bounce classification of 10 (invalid user) and with the string `gsmtp` in the bounce reason.**
+
 
 ## Gmail December 2020 hard bounces
 
